@@ -42,3 +42,7 @@ func BenchmarkEasyjson(b *testing.B) {
 func BenchmarkCapnproto(b *testing.B) {
 	BExamine(b, CapnprotoM, CapnprotoU)
 }
+
+func BenchmarkGogoproto(b *testing.B) {
+	BExamine(b, GogoprotoM, GogoprotoU)
+}
